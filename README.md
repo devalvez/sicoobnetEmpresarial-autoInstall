@@ -60,4 +60,7 @@ basta acessar a pasta onde foi instalado o programa SicoobNET via terminal e exe
 > `Ctrl + Alt + t` <br>
 > `cd $HOME/sicoobnetEmpresarial-autoInstall/Sicoobnet && ./run.sh`
 
+Se o atalho gerado na área de trabalho não funcionar basta executar manualmente.
+> cd $HOME/.config/Sicoobnet && java -jar office.jar
+
 :rotating_light: Lembrando! Não esqueça de deixar os seu _Feedback_ na aba de _dicussão (discussion)_ se te ajudou de alguma maneira :rotating_light:

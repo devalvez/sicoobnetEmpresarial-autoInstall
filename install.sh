@@ -7,18 +7,21 @@ echo "** ATENÇÃO ESSA É A VERSÃO LEGADA DO PROGRAMA SICOOBNET EMPRESARIAL. A
 echo "============================================================================================================="
 
 
-if [ -d {$HOME}'/sicoobnet' ]; then
-		mkdir ${HOME}'/sicoobnet' && cd ${HOME}'/sicoobnet'
+if [ -d {$HOME}'/.config/Sicoobnet' ]; then
+		rm -r ${HOME}'/.config/Sicoobnet'
 else
-		cd ${HOME}'/sicoobnet'
+		cd $HOME/.config
 fi
 
 function installing () {
 		if [ -e "/usr/bin/java" ]; then
 				if [ -e "/usr/bin/javaws" ]; then
 						javaws InstaladorLegadoSicoobnetEmpresarial.jnlp
-						cp run.sh ./Sicoobnet/
-						echo -e "[Desktop Entry]\nVersion=1.0\nName=SicoobNet\nGenericName=Geren	ciador Financeiro SicoobNet\nGenericName[fil]=Gerenciador Financeiro SicoobNet\nComment=Gerenciador Financeiro SicoobNet\nExec=$HOME/sicoobnetEmpresarial-autoInstall/run.sh\nTerminal=false\nIcon=$HOME/sicoobnetEmpresarial-autoInstall/SicoobEmp001.ico\nType=Application\nCategories=restart;Finance;" >> $HOME/Desktop/SicoobNet.desktop
+						# sudo cp $HOME/sicoobnetEmpresarial-autoInstall/run.sh /usr/bin/sicoobnet.sh
+						if [ -e ${HOME}"/Desktop/SicoobNet.desktop" ]; then
+								rm $HOME/Desktop/SicoobNet.desktop
+						fi
+						echo -e "[Desktop Entry]\nVersion=1.0\nName=SicoobNet\nGenericName=Gerenciador Financeiro SicoobNet\nGenericName[fil]=Gerenciador Financeiro SicoobNet\nComment=Gerenciador Financeiro SicoobNet\nExec=/usr/bin/sicoobnet.sh\nTerminal=false\nIcon=$HOME/Sicoobnet/SicoobEmp001.ico\nType=Application\nCategories=restart;Finance;" >> $HOME/Desktop/SicoobNet.desktop
 				else
 						echo "Verificando base da distro..."
 						
