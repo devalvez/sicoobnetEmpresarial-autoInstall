@@ -4,7 +4,7 @@
 
 ![Sicoob Logo](./sicoob-logo.png)
 
-A vesão que temos disponível para GNU/Linuz atualmente e a `Versão Legada`
+A vesão que temos disponível para GNU/Linux atualmente e a `Versão Legada`
 
 Site oficial [Sicoobnet Empresarial](https://empresarial.sicoobnet.com.br/instalador/#instalar)
 
