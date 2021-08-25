@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Name=SicoobNet
+# From Ubuntu’s language-pack-kde-XX-base packages, version 9.04-20090413.
+GenericName=Gerenciador Financeiro SicoobNet
+
+GenericName[fil]=Gerenciador Financeiro SicoobNet
+
+# Gnome and KDE 3 uses Comment.
+Comment=Gerenciador Financeiro SicoobNet
+#Exec=/usr/local/bin/sicoobnet.sh
+Exec=$HOME/sicoobnetEmpresarial-autoInstall/run.sh
+Terminal=false
+Icon=$HOME/sicoobnetEmpresarial-autoInstall/SicoobEmp001.ico
+Type=Application
+Categories=restart;Finance;
+MimeType=
+Actions=

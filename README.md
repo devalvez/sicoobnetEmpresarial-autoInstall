@@ -1,40 +1,63 @@
-# SicoobnetEmpresarial
+# SicoobNET Empresarial
+## Script para instalação
 
-## Instalador em ShellScript do sicoobnet `
-**:rotating_light: (Depois de testar o script, se funcionar deixe um feedback na aba de Discussão (Discussions)) :rotating_light:**
+:rotating_light: **Antes de descrever o que o `script` faz, gostaria de pedir que, se o `script` ajudar de alguma forma de um Feedback na aba de _discussão (Discussion)_. Obrigado!** :rotating_light:
 
-A vesão que temos disponível para GNU/Linux atualmente e a `Versão Legada`
+### Informações Importantes
+Antes de mais nada, gostaria de informar que este script foi feito por mim para auxiliar um amigo que não possui domínio nenhum de GNU/Linux. Então o fiz de maneira bem simplória.
 
-Site oficial [Sicoobnet Empresarial](https://empresarial.sicoobnet.com.br/instalador/#instalar)
+Básicamente o que o Script irá fazer é acessar o link de Download no site official do [SicoobNET Empresarial]("https://empresarial.sicoobnet.com.br/instalador/") e fazer o download para a sua maquina.
 
-O programa do Sicoobnet Empresarial tem como dependência:
+## Inciando Instalação
+### Adquirindo o script
+Via **git clone**
+> cd $HOME && git clone https://github.com/devalvez/sicoobnetEmpresarial-autoInstall.git
 
-> `Java 8` e `IcedTea-web`
+Via **zip** 
+> Baixe o arquivo `*.zip`
 
-Caso o Script não os instale é necessá que você os instale por conta própria.
+<img src="./images/zip.gif" style="margin-left: 40px; width: 300px;">
 
-O script tem um execução bem simples banstando executar os comandos abaixo:
+> Extraia para o diretório $HOME
 
-Primeiro abra seu terminal:
-> `Ctrl + Alt + t`
+Se a opção de download escolhida for via **.zip**, depois de extrair a pasta renomeie a pasta de `sicoobnetEmpresarial-autoInstall-main` para `sicoobnetEmpresarial-autoInstall`
 
-ou  navegue pelo menu de programas.
+Em seguida abra um terminal:
 
-Depois execute:
-> `cd $HOME && git clone https://github.com/devalvez/sicoobnetEmpresarial-autoInstall.git`
+>`Ctrl + Alt +t`
 
-Em seguida navegue para o diretório clonado. Executando:
-> `cd $HOME/sicoobnetEmpresarial-autoInstall`
+ou acesse pelo menu de programas.
 
-Depois execute:
-> `sudo chmod +x run.sh`
+Com o terminal aberto, execute o seguinte comando para acessar a pasta com os arquivos.
 
-Por fim execute:
-> `./run.sh`
+> `cd sicoobnetEmpresarial-autoInstall`
 
-Não recomendo alterar os diretórios a menos que saiba que o faz
+Uma vez dentro do diretório, execute o camando, que dará ao script a permição para execução:
 
-o Script acessará o site do Sicoobnet Empresarial e fara o download do arquivo e assim que concluído irá inciar a instalação.
+> sudo chmod +x install.sh run.sh
 
-Para fazer a remoção basta deletar a pasta Sicoob e o arquivo de instalação que está na pasta.
 
+### Dependências
+
+* Java 8
+* IcedTea-Web
+
+Em seguida vamos executar o `install.sh` da seguinte maneira:
+> ./install.sh
+
+
+Se todas as dependências estiverem devidamente instaladas, a instalação começará automaticamente. Caso não estajam instaladas e não intalarem automaticamente através do `script` irá retornar um erro. Procure instala-las manualmente, seguido o passo a passo de acordo com a sua distribuição.
+
+Uma vez que as depedências estiverem instaladas e se tudo correr bem, aparecerá o splash screen do IcedTea e então é só seguir as etapas.
+
+Concluída a instalação o programa **SicoobNET Empresarial** será iniciado, após concluida a inicialização, antes de inserir as credenciais de acesso feche o programa. Assim que encerrar a aplicação será criado o atalho na área de trabalho.
+
+### Atalho na área de trabalho
+Em alguns ambites como no ***Cinnamon*** onde foi testado o script o atalho não funcionou. Mas a solução foi é bem simples.
+
+basta acessar a pasta onde foi instalado o programa SicoobNET via terminal e executar manualmente. Caso não tenha alterado os diretórios do script, basta seguir os passos a baixo.
+
+> `Ctrl + Alt + t` <br>
+> `cd $HOME/sicoobnetEmpresarial-autoInstall/Sicoobnet && ./run.sh`
+
+:rotating_light: Lembrando! Não esqueça de deixar os seu _Feedback_ na aba de _dicussão (discussion)_ se te ajudou de alguma maneira :rotating_light:
