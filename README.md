@@ -21,7 +21,7 @@ Primeiro abra seu terminal:
 ou  navegue pelo menu de programas.
 
 Depois execute:
-> cd $HOME && git clone https://github.com/devalvez/sicoobnetEmpresarial-autoInstall.git
+> `cd $HOME && git clone https://github.com/devalvez/sicoobnetEmpresarial-autoInstall.git`
 
 Em seguida navegue para o diretório clonado. Executando:
 > `cd $HOME/sicoobnetEmpresarial-autoInstall`
