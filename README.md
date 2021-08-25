@@ -3,9 +3,6 @@
 ## Instalador em ShellScript do sicoobnet 
 **:rotating_light: (Depois de testar o script, se funcionar deixe um feedback na aba de Discussão (Discussions)) :rotating_light:**
 
-
-![Sicoob Logo](./sicoob-logo.png)
-
 A vesão que temos disponível para GNU/Linux atualmente e a `Versão Legada`
 
 Site oficial [Sicoobnet Empresarial](https://empresarial.sicoobnet.com.br/instalador/#instalar)
