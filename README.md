@@ -27,7 +27,7 @@ Em seguida navegue para o diretório clonado. Executando:
 > `cd $HOME/sicoobnetEmpresarial-autoInstall`
 
 Depois execute:
-> `sudo chmod + x run.sh`
+> `sudo chmod +x run.sh`
 
 Por fim execute:
 > `./run.sh`
