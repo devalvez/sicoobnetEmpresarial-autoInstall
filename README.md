@@ -2,7 +2,7 @@
 
 ## Instalador em ShellScript do sicoobnet
 
-![Sicoob Logo]("./sicoob-logo.png")
+![Sicoob Logo](./sicoob-logo.png)
 
 A vesão que temos disponível para GNU/Linuz atualmente e a `Versão Legada`
 
